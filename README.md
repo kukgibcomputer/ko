@@ -1,2 +1,2 @@
-# ko
-ko
+﻿# Self3
+SELFBOT LINE ⚔คนติดบอท⚔
