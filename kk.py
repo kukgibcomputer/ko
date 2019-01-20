@@ -59,7 +59,7 @@ settings = {
     "autoJoin": False,
     'autoCancel':{"on":True,"members":2},
     "autoLeave": False,
-    "autoRead": False,
+    "autoRead": True,
     "autoReply": False,
     "autoJoinTicket": False,
     "bc":{},
