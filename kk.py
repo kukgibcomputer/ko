@@ -57,7 +57,7 @@ settings = {
     "autoAdd":True,
     "autoBlock":False,
     "autoJoin": False,
-    'autoCancel':{"on":True,"members":2},
+    'autoCancel':{"on":True,"members":5},
     "autoLeave": False,
     "autoRead": True,
     "autoReply": False,
