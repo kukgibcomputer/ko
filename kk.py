@@ -908,7 +908,7 @@ def lineBot(op):
              dan = line.getContact(op.param2)
              tgb = line.getGroup(op.param1)
              sendMessageWithMention(op.param1, op.param2)
-             line.sendMessage(op.param1, str(settings["kick"] +"\n {} ได้ทำการลบสมาชิกในกลุ่ม Σ(っﾟДﾟ；)っ ".format(str(dan.displayName))))
+             line.sendMessage(op.param1, str(settings["kick"] +"\n {} \nได้ทำการลบสมาชิกในกลุ่ม Σ(っﾟДﾟ；)っ ".format(str(dan.displayName))))
              line.sendContact(op.param1, op.param2)
              line.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net{}".format(dan.picturePath))
         if op.type == 15:
